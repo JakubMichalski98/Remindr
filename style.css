@@ -1,0 +1,153 @@
+
+
+.header {
+    margin: 0 auto;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 33px;
+    /* color: #333333; */
+    color: rgba(255, 255, 255, 0.8)
+    
+}
+
+.header-title {
+    text-align: center;
+}
+
+.todo-box {
+    position: relative;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    background-color: rgba(249, 249, 249, 0.5);
+    border: 1px solid #E6E6E6;
+    border-radius: 35px;
+    margin-top: 36px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.todo-container {
+    border-top: 4px solid #ccccff;
+    border-bottom: 4px solid #ccccff;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.task-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-left: 20px;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.task-category {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-left: 20px;
+    font-size: 14px;
+    padding-bottom: 4;
+    margin-top: 8px;
+}
+
+.priority-indicator {
+    margin-top: 36px;
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #cc3366;
+}
+
+body {
+    background: linear-gradient(243.79deg, #E1E1FC 2.35%, #9999CC 74.63%);
+    background-attachment: fixed;
+}
+
+.todo-checkbox {
+    accent-color: #99f;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+}
+
+.todo-checkbox input[type=checkbox]:not(:checked) {
+    background-color: white;
+  }
+
+.todo-icons {
+    position: absolute;
+    right: 0;
+    margin-right: 46px;
+    padding-top: 30px;
+}
+
+.edit-btn {
+    text-align: right;
+    height: 40px;
+    width: 100px;
+    padding-left: 200px;
+}
+
+.edit-btn:hover {
+    transform: scale(1.1);
+}
+
+.remove-btn {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.remove-btn:hover {
+    transform: scale(1.1);
+}
+
+.add-btn {
+    height: 120px;
+    width: 120px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.add-btn:hover {
+    transform: scale(1.1);
+}
+
+.new-text {
+margin-top: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+color: white;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
